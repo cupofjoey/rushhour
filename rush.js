@@ -15,7 +15,7 @@ for (var i = 0; i < 6; i++) {
 
 };
 */
-
+//This first set of code is to dissasemble exampleString and put it into a Rush Hour Game board. 
 var exampleString = "111000203444203RR567780560089ABBB89A"
 
 var stringToBoard = function(inputString) {
@@ -37,7 +37,7 @@ var stringToBoard = function(inputString) {
 console.log(stringToBoard(exampleString));
 
 
-
+//This second piece of code is to take that JSON board and reassemble it into a 36 character string. 
 var myTestBoard = {
     "board": [
   [ '1', '1', '1', '0', '0', '0' ],                                                                                                                                                       
